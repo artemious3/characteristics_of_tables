@@ -293,6 +293,7 @@ int goThroughTables_(int nmax, int mmax)
 
 int main()
 {
+    srand(time(NULL));
     int option;
     cout << "1 GET MAX CHARACTERISTIC OF RANDOM TABLE \n";
     cout << "2 GET MAX CHARACTERISTIC OF INPUT TABLE \n";
@@ -318,7 +319,7 @@ int main()
         cout << "WRONG INPUT\n";
         break;
     }
-    srand(time(NULL));
+    
     
     //return goThroughTables_(10, 70);
     //return setTableProgram_();
